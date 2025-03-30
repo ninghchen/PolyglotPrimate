@@ -9,7 +9,7 @@ And… it’s monke-themed! 🍌
 
 ## Installation
 1. In command prompt or terminal, copy the source files to your local directory
-`git clone https://github.com/whyammehere/PolyglotPrimate`
+`git clone https://github.com/ninghchen/PolyglotPrimate.git`
 2. Open Google Chrome, and click **Extensions** (puzzle piece icon) in the upper right corner to open a drop down menu.
 3. Click **Manage Extensions** on the bottom of the drop down menu.
 4. In the Extensions page, toggle **Developer Mode** on in the upper right corner.
