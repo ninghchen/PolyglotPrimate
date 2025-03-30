@@ -1,0 +1,38 @@
+{
+    "name": "PolyglotPrimate",
+    "description": "Your AI-powered Webpage Translator Chrome Extension App",
+    "version": "0.1",
+    "manifest_version": 3,
+    "permissions" : ["scripting", "activeTab", "sidePanel"],
+    "host_permissions" : ["<all_urls>"],
+
+    "side_panel": {
+        "default_path": "popup.html"
+    },
+
+    "action": {
+        "default_title": "Click to open panel"
+    },
+
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+
+    "icons": {
+    "16": "default_icon.png",
+    "48": "default_icon.png",
+    "128": "default_icon.png"
+    },
+
+    
+    "content_scripts": 
+    [{
+        "js": ["popup.js"],
+        "matches":
+        [
+            "https://developer.chrome.com/*",
+            "https://www.google.com/*"
+        ]
+    }] 
+}
+

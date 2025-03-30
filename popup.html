@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translator Extension: AI-powered Page Translations</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: monospace;
+      margin: 0;
+      padding: 1em;
+      width: 100%;
+      position: relative;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    #title {
+      font-size: 3em;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+    #logo {
+      width: 60px;
+    }
+    #footer {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    #top-right-img, #bottom-left-img {
+      position: absolute;
+      width: 60px;
+    }
+    #top-right-img {
+      top: 10px;
+      right: 10px;
+    }
+    #bottom-left-img {
+      bottom: 10px;
+      left: 10px;
+    }
+    #output {
+      margin-top: 1em;
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      min-height: 50px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div id="title">Pending</div>
+
+  <img id="top-right-img" src="top-right.png" alt="Top Right" />
+  <img id="bottom-left-img" src="bottom-left.png" alt="Bottom Left" />
+
+  <label for="languages">Translate to:</label>
+  <select id="languages" name="languages">
+    <option value="ZH">Chinese (Mandarin)</option>
+    <option value="ES">Spanish</option>
+    <option value="EN">English</option>
+    <option value="HI">Hindi</option>
+    <option value="AR">Arabic</option>
+    <option value="BN">Bengali</option>
+    <option value="PT">Portuguese</option>
+    <option value="RU">Russian</option>
+    <option value="JA">Japanese</option>
+    <option value="DE">German</option>
+  </select>
+
+  <button type="button" id="translate">Translate</button>
+  <script src = "popup.js"></script>
+
+  <div id="output">Translated text...</div>
+
+  <div id="footer">
+    <div id="contact">Contacts</div>
+    <img id="logo" src="default_icon.png" alt="Logo" />
+  </div>
+
+</body>
+</html>
