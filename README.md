@@ -2,9 +2,9 @@
 PolyglotPrimate is an AI-powered Webpage Translator Chrome Extension App.
 
 With just one click, PolyglotPrimate translates the visible text on any webpage into your preferred language using DeepL’s translation API. This Google Chrome extension makes language accessibility fast and seamless.
-Say you’re browsing study abroad programs and want to learn directly from a foreign university’s website — or you really want to read that newly released untranslated novel — now you can instantly translate the content without switching tabs or copying text. Perfect for travelers, students, researchers, or anyone who wants to explore the unlimited web across languages. 
+Say you’re browsing study abroad programs and want to learn directly from a foreign university’s website — or you really want to read that newly released untranslated novel — now you can instantly translate the content without switching tabs or copying text. Perfect for travelers, students, researchers, or anyone who wants to explore the unlimited web across languages. Break your language barriers!
 
-And… it’s monke-themed! 🍌
+And… it’s monke-themed! 🍌 
 
 
 ## Installation
